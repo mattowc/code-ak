@@ -90,4 +90,4 @@
 	<?php endif; ?>
 </div><!-- end .posts-wrap or #archive_grid_wrap -->
 
-<?php get_footer(); ?>
+<?php get_footer(); // Comment ?>
