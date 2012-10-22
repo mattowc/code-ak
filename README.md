@@ -1,1 +1,3 @@
-I've added a readme, and yet it complains :(
+For AK.  
+
+AK is mostly complete, work from here on out is mostly maintenance
