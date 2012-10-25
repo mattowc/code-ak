@@ -520,7 +520,7 @@ img#logo {
 
 .slides_container div.single_slide {
     width:400px;
-    height: 540px;
+    height: 460px;
     padding:0 540px 0 0;
     display:block;
     position: relative !important;
@@ -1851,13 +1851,17 @@ input[type="text"].itemQuantity {
 margin-top: -8px;
 }
 
+.main-home-img {
+	position: absolute !important;
+	right: 265px;
+}
 .home-img-1 {
 	position: absolute !important;
 	right: 265px;
-	top: 385px;
+	top: 160px;
 }
 .home-img-2 {
 	position: absolute !important;
 	right: 70px;
-	top: 385px;
+	top: -10px;
 }

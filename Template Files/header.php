@@ -99,7 +99,10 @@
 								<div class="slide_image_wrap">
 								<?php if (get_post_meta($post->ID, '_dc_button_link', true) != '') { ?>
 								<a href="<?php echo get_post_meta($post->ID, '_dc_button_link', true);?>" title="<?php the_title(); ?>"<?php if (of_get_option('slider_box') == 'yes') { ?> class="slide_image_box"<?php } ?>><?php } else { if (of_get_option('slider_box') == 'yes') { ?><div class="slide_image_box"><?php } } ?>
-									<?php the_post_thumbnail( 'slide_image', array('alt' => get_the_title()) ); ?>
+									<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large'); ?>
+    								<?php echo '<a class="lightbox" href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" >'; ?>
+									<?php the_post_thumbnail( 'thumbnail', array('alt' => get_the_title(), 'class'=>'alignnone main-home-img' ) ); ?>
+									<?php echo'</a>'; ?>
 								<?php if (get_post_meta($post->ID, '_dc_button_link', true) != '') { ?></a><?php } else { if (of_get_option('slider_box') == 'yes') { ?></div><?php } } ?>
 								</div>
 								<div class="clear"></div>
