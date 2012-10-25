@@ -473,7 +473,7 @@ img#logo {
 }
 
 .home_widget_count2 .home_widget {
-	width:450px;
+	width:940px;
 }
 
 .home_widget_count3 .home_widget {
@@ -501,12 +501,13 @@ img#logo {
 
 #slider .container {
 	padding:0 0 40px;
+
 }
 
 #slides {
 	width:100%;
 	position: relative;
-	padding-top:40px;
+	padding-top:20px;
 }
 
 .slides_control {
@@ -519,7 +520,7 @@ img#logo {
 
 .slides_container div.single_slide {
     width:400px;
-    height:340px;
+    height: 540px;
     padding:0 540px 0 0;
     display:block;
     position: relative !important;
@@ -1848,4 +1849,15 @@ input[type="text"].itemQuantity {
 
 .slide_content {
 margin-top: -8px;
+}
+
+.home-img-1 {
+	position: absolute !important;
+	right: 265px;
+	top: 385px;
+}
+.home-img-2 {
+	position: absolute !important;
+	right: 70px;
+	top: 385px;
 }
