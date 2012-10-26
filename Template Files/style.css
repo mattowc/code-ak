@@ -500,14 +500,14 @@ img#logo {
 }
 
 #slider .container {
-	padding:0 0 40px;
+	padding:0 0 10px;
 
 }
 
 #slides {
-	width:100%;
+	width: 100%;
 	position: relative;
-	padding-top:20px;
+	padding-top: 20px;
 }
 
 .slides_control {
@@ -520,7 +520,7 @@ img#logo {
 
 .slides_container div.single_slide {
     width:400px;
-    height: 460px;
+    height: 390px;
     padding:0 540px 0 0;
     display:block;
     position: relative !important;
@@ -1864,4 +1864,11 @@ margin-top: -8px;
 	position: absolute !important;
 	right: 70px;
 	top: -10px;
+}
+
+.purchase-half {
+	float: left;
+	width: 65%;
+	margin-top: -30px;
+	padding-right: 20px;
 }
