@@ -1866,9 +1866,44 @@ margin-top: -8px;
 	top: -10px;
 }
 
+.home-img-3 {
+	position: absolute !important;
+	right: 70px;
+	top: 160px;
+}
+
 .purchase-half {
 	float: left;
 	width: 65%;
 	margin-top: -30px;
 	padding-right: 20px;
+	display: inline-block;
+}
+
+.purchase-last-half {
+	text-align: right;
+	float: left;
+	display: inline-block;
+	width: 20%;
+	margin-top: -10px;
+}
+
+.purchase-half h3 {
+	background: white;
+padding: 15px;
+line-height: 40px;
+height: 30px;
+}
+
+.sprite-OgdenClinicDoctorsHealthcare{ background: url(images/csg-50edb7fb39d06.png); background-position: 0 0; width: 210px; height: 85px; display: inline-block; position: relative; } 
+.sprite-gif{ background: url(images/csg-50edb7fb39d06.png); background-position: -225px 0; width: 200px; height: 69px; display: inline-block; position: relative; } 
+.sprite-logo{ background: url(images/csg-50edb7fb39d06.png); background-position: -440px 0; width: 200px; height: 40px; display: inline-block; position: relative; } 
+.sprite-top_area{ background: url(images/csg-50edb7fb39d06.png); background-position: -655px 0; width: 200px; height: 45px; display: inline-block; position: relative; } 
+
+#sprite-container {
+    width: 825px;
+	clear: both;
+	height: 85px;
+	display: block;
+	margin: 0 auto;
 }
