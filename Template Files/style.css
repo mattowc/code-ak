@@ -1890,20 +1890,33 @@ margin-top: -8px;
 
 .purchase-half h3 {
 	background: white;
-padding: 15px;
-line-height: 40px;
-height: 30px;
+	padding: 15px;
+	line-height: 40px;
+	height: 30px;
 }
 
-.sprite-OgdenClinicDoctorsHealthcare{ background: url(images/csg-50edb7fb39d06.png); background-position: 0 0; width: 210px; height: 85px; display: inline-block; position: relative; } 
-.sprite-gif{ background: url(images/csg-50edb7fb39d06.png); background-position: -225px 0; width: 200px; height: 69px; display: inline-block; position: relative; } 
-.sprite-logo{ background: url(images/csg-50edb7fb39d06.png); background-position: -440px 0; width: 200px; height: 40px; display: inline-block; position: relative; } 
-.sprite-top_area{ background: url(images/csg-50edb7fb39d06.png); background-position: -655px 0; width: 200px; height: 45px; display: inline-block; position: relative; } 
+.learn-more-last-half {
+	width: 132px;
+	float: right;
+	display:inline-block;
+}
+
+.learn-more-half {
+	float: left;
+	margin-right: 10px;
+	width: 350px;
+	display:inline-block;
+}
 
 #sprite-container {
-    width: 825px;
+    width: 870px;
 	clear: both;
-	height: 85px;
+	height: 66px;
 	display: block;
 	margin: 0 auto;
 }
+
+.sprite-davis{ background: url(images/csg-50eee23829788.png) no-repeat top left; background-position: 0 0; width: 190px; height: 66px; display: inline-block; position: relative; margin-right: 10px; margin-left: 10px; } 
+.sprite-ogden{ background: url(images/csg-50eee23829788.png) no-repeat top left; background-position: -240px 0; width: 174px; height: 65px; display: inline-block; position: relative; margin-right: 10px; margin-left: 10px; } 
+.sprite-pro-ortho{ background: url(images/csg-50eee23829788.png) no-repeat top left; background-position: -464px 0; width: 118px; height: 66px; display: inline-block; position: relative; margin-right: 10px; margin-left: 10px;  } 
+.sprite-utah{ background: url(images/csg-50eee23829788.png) no-repeat top left; background-position: -632px 0; width: 293px; height: 65px; display: inline-block; position: relative; margin-right: 10px; margin-left: 10px;  } 
